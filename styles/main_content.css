@@ -1,0 +1,13 @@
+.container {
+  margin: 0 auto;
+  max-width: 944px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+/*# sourceMappingURL=main_content.css.map */

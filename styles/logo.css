@@ -1,0 +1,12 @@
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .logo__img {
+    height: 40px;
+    width: 40px; }
+
+/*# sourceMappingURL=logo.css.map */

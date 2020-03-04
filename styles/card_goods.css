@@ -1,0 +1,70 @@
+.goods {
+  margin-top: 50px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 202px;
+  height: 403px;
+  border: 1px solid #f3f3f3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+  border-radius: 5px; }
+  .goods__picture-link {
+    margin: 13px auto 36px;
+    width: 97%; }
+  .goods__picture {
+    width: 100%; }
+  .goods__title {
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    text-decoration: none; }
+  .goods__code {
+    margin-top: 6px;
+    font-size: 11px; }
+
+.review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px; }
+  .review__comment {
+    padding-bottom: 0;
+    font-size: 11px; }
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 20px; }
+  .price__label {
+    font-size: 11px; }
+  .price__price {
+    font-weight: bold;
+    font-size: 16px; }
+
+/*# sourceMappingURL=card_goods.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["logo.scss"],"names":[],"mappings":"AAAA;EACE,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,yBAAmB;MAAnB,sBAAmB;UAAnB,mBAAmB,EAAA;EAEnB;IACE,YAAY;IACZ,WAAW,EAAA","file":"logo.css","sourcesContent":[".logo {\n  display: flex;\n  align-items: center;\n  \n  &__img {\n    height: 40px;\n    width: 40px;\n  }\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["main_content.scss"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,gBAAgB;EAChB,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,yBAA8B;MAA9B,sBAA8B;UAA9B,8BAA8B;EAC9B,mBAAe;MAAf,eAAe,EAAA","file":"main_content.css","sourcesContent":[".container {\n  margin: 0 auto;\n  max-width: 944px;\n  display: flex;\n  justify-content: space-between;\n  flex-wrap: wrap;\n}\n"]}
