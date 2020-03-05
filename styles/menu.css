@@ -5,19 +5,19 @@
   display: -ms-flexbox;
   display: flex;
   width: 758px;
+  height: 60px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 12px; }
-  .menu-item {
+  .menu__item {
     list-style-type: none; }
-  .menu-link {
+  .menu__link {
     display: inline-block;
     text-decoration: none;
-    padding-top: 22px;
-    padding-bottom: 24px;
+    line-height: 60px;
     color: black; }
-    .menu-link:hover {
+    .menu__link:hover {
       color: #00acdc; }
 
 .is-active {
