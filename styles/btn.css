@@ -12,15 +12,18 @@
   margin-top: 20px;
   font-weight: bold;
   font-size: 14px;
-  color: #00acdc;
+  color: white;
+  background-color: #00acdc;
   text-decoration: none;
   line-height: 40px; }
-  .btn-buy .btn-buy__label {
+  .btn-buy__label {
     width: 100%;
     text-align: center;
     display: inline-block; }
-    .btn-buy .btn-buy__label:hover {
-      color: white;
-      background-color: #00acdc; }
+    .btn-buy__label:hover {
+      color: #00acdc;
+      background-color: white;
+      border: solid 1px;
+      border-radius: 5px; }
 
 /*# sourceMappingURL=btn.css.map */

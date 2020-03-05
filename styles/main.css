@@ -153,10 +153,18 @@
   background-repeat: no-repeat;
   background-position: center; }
 
-.stars--1 .star:first-child,
-.stars--2 .star:nth-child(-n+2),
-.stars--3 .star:nth-child(-n+3),
-.stars--4 .star:nth-child(-n+4),
+.stars--1 .star:nth-child(-n+1) {
+  background-image: url(../images/star-active.svg); }
+
+.stars--2 .star:nth-child(-n+2) {
+  background-image: url(../images/star-active.svg); }
+
+.stars--3 .star:nth-child(-n+3) {
+  background-image: url(../images/star-active.svg); }
+
+.stars--4 .star:nth-child(-n+4) {
+  background-image: url(../images/star-active.svg); }
+
 .stars--5 .star:nth-child(-n+5) {
   background-image: url(../images/star-active.svg); }
 
@@ -174,16 +182,19 @@
   margin-top: 20px;
   font-weight: bold;
   font-size: 14px;
-  color: #00acdc;
+  color: white;
+  background-color: #00acdc;
   text-decoration: none;
   line-height: 40px; }
-  .btn-buy .btn-buy__label {
+  .btn-buy__label {
     width: 100%;
     text-align: center;
     display: inline-block; }
-    .btn-buy .btn-buy__label:hover {
-      color: white;
-      background-color: #00acdc; }
+    .btn-buy__label:hover {
+      color: #00acdc;
+      background-color: white;
+      border: solid 1px;
+      border-radius: 5px; }
 
 html {
   font-family: Roboto, sans-serif; }
