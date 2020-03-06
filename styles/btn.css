@@ -12,7 +12,9 @@
   background-color: #00acdc;
   text-decoration: none;
   text-align: center;
-  line-height: 40px; }
+  line-height: 40px;
+  -webkit-transition: background-color 1s, color 1s;
+  transition: background-color 1s, color 1s; }
   .btn-buy:hover {
     color: #00acdc;
     background-color: white;

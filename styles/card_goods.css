@@ -22,8 +22,21 @@
   .goods__picture-link {
     margin: 15px auto 37px;
     width: 94%; }
+    .goods__picture-link:hover {
+      -webkit-transform: scale(1.2, 1.2) translateY(-13px) translateX(-4px);
+              transform: scale(1.2, 1.2) translateY(-13px) translateX(-4px);
+      -webkit-transition: -webkit-transform 1s;
+      transition: -webkit-transform 1s;
+      transition: transform 1s;
+      transition: transform 1s, -webkit-transform 1s;
+      margin-bottom: 29px; }
   .goods__picture {
     width: 100%; }
+    .goods__picture:hover {
+      border: solid rgba(0, 0, 0, 0.07) 4px;
+      border-radius: 5px;
+      -webkit-transition: border 1s;
+      transition: border 1s; }
   .goods__title {
     margin-top: 3px;
     font-weight: 500;

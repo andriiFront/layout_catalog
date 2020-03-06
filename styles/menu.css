@@ -16,7 +16,9 @@
     display: inline-block;
     text-decoration: none;
     line-height: 60px;
-    color: black; }
+    color: black;
+    -webkit-transition: color 1s;
+    transition: color 1s; }
     .menu__link:hover {
       color: #00acdc; }
 
