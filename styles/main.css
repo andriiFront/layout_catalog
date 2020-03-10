@@ -21,6 +21,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
