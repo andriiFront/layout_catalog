@@ -1,7 +1,11 @@
+@import "./variables";
+
 .container {
   margin: 0 auto;
   max-width: 944px;
-  display: flex;
+  display: grid;
   justify-content: space-between;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   flex-wrap: wrap;
 }
